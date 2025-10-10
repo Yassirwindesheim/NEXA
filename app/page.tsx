@@ -1,4 +1,5 @@
 "use client";
+
 import { useAppContext } from "./context/AppContext";
 const Badge = ({ children, className = "" }: { children: React.ReactNode; className?: string }) => (
   <span className={`inline-block px-2 py-1 text-xs rounded ${className}`}>

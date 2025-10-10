@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             {/* NAVBAR */}
             <header className="bg-white border-b shadow-sm sticky top-0 z-50">
               <nav className="max-w-7xl mx-auto flex items-center justify-between px-6 py-3">
-                <h1 className="text-xl font-bold tracking-tight">🚗 NEXA Werkplaats</h1>
+                <h1 className="text-xl font-bold tracking-tight">NEXA Werkplaats</h1>
                 <div className="flex gap-2">
                   {navItems.map(({ href, label, icon: Icon }) => (
                     <Link
